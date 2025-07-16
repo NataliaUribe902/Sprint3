@@ -1,0 +1,152 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  height: 80px;
+  width: 58px;
+}
+
+.nav__links {
+  list-style-type: none;
+  column-gap: 20px;
+  display: flex;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  max-width: 635px;
+  margin-top: 128px;
+}
+
+.header__description {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 515px;
+  margin-top: 32px;
+}
+
+.header__image {
+  max-width: 636px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+.staff {
+  background-image: url(../images/staff_picks_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 68px 0;
+}
+
+.card {
+  width: 360px;
+  height: 420px;
+  background-color: white;
+  border-radius: 4px;
+}
+.card__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.card__text {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin: 0 0 16px 0;
+}
+
+.staff__cards {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0;
+}
+.staff__title {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin: 0 0 24px 0;
+}
+.staff__subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin: 0 0 64px 0;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+}
+
+.card__footer {
+  padding-bottom: 20px;
+  color: gray;
+  margin-top: auto;
+}
